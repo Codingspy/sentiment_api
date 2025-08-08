@@ -1,0 +1,11 @@
+{
+  "dependencies": [
+    "flask",
+    "textblob"
+  ],
+  "description": "A simple sentiment analysis API using Flask and TextBlob.",
+  "name": "sentiment_api",
+  "version": "1.0.0",
+  "build": "pip install -r requirements.txt",
+  "start": "python sentiment_api.py"
+}
